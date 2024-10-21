@@ -1,6 +1,6 @@
 {
-	"name": "n8n-nodes-request-body-mapper",
-	"version": "0.0.7",
+	"name": "n8n-nodes-req-field-mapper",
+	"version": "1.0.3",
 	"description": "for creating request body validation",
 	"keywords": [
 		"n8n-community-node-package"
@@ -39,7 +39,7 @@
 			"dist/credentials/ExampleCredentialsApi.credentials.js"
 		],
 		"nodes": [
-			"dist/nodes/BodyMapper/BodyMapper.node.js"
+			"dist/nodes/RequestMapper/RequestMapper.node.js"
 		]
 	},
 	"devDependencies": {
